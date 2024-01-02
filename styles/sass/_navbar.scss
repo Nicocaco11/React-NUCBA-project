@@ -1,0 +1,32 @@
+@import "variables";
+
+#nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: $navbar-color;
+    font-family: 'Montserrat', sans-serif;
+
+    a{
+        font-size: 25px;
+        color: $font-color;
+    }
+
+    i{
+        font-size: 35px;
+    }
+
+    img{
+        width: 80px;
+    }
+}
+
+.nav__content{
+    display: flex;
+    gap: 150px;
+}
+
+.menu{
+    display: none;
+}

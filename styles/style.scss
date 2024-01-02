@@ -1,7 +1,16 @@
+@import "sass/navbar";
+@import "sass/hero";
+
 *{
     margin: 0;
     padding: 0;
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+body{
+    background: url("src/images/bg.png");
+    width: 100%;
+    height: 100%;
 }
