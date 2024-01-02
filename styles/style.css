@@ -50,7 +50,7 @@
   text-decoration: none; }
 
 body {
-  background: url("src/images/bg.png");
+  background: url("../images/bg.png");
   width: 100%;
   height: 100%; }
 

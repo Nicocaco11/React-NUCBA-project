@@ -1,10 +1,12 @@
+import logo from "../images/logo.png"
+
 function Navbar() {
   return (
     <nav id="nav">
       <div className="nav__content">
         <div className="nav__content--logo">
           <a href="#">
-            <img src="src/images/logo.png" alt="coffe" />
+            <img src={logo} alt="coffe" />
           </a>
         </div>
         <a href="#">Inicio</a>
@@ -20,7 +22,7 @@ function Navbar() {
         </a>
       </div>
     </nav>
-  );
+  )
 }
 
 export default Navbar
