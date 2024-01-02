@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 .sass-cache
-dist
 dist-ssr
 *.local
 
