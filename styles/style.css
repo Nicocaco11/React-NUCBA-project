@@ -25,10 +25,8 @@
   display: none; }
 
 @media (max-width: 914px) {
-  #nav {
-    border: solid red; }
-    #nav i {
-      font-size: 50px; }
+  #nav i {
+    font-size: 50px; }
 
   .nav__content {
     width: 100%;
@@ -73,7 +71,7 @@
       font-size: 3vw; } }
 #footer {
   display: flex;
-  margin-top: 7vh;
+  margin-top: 50px;
   color: white; }
 
 * {
