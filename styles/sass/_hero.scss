@@ -5,23 +5,23 @@
 }
 
 .hero__content{
+    width: 100%;
     display: flex;
     margin-top: 200px;
     color: $font-color;
     font-family: 'Montserrat', sans-serif;
-    gap: 50px;
 
     img{
-        width: 500px;
+        width: 30vw;
     }
 
     h1{
-        font-size: 35px;
+        font-size: 3vw;
     }
 
-    p{
-        width: 700px;
-        font-size: 20px;
+    p{  
+        max-width: 60vw;
+        font-size: 2vw;
     }
 }
 
@@ -29,4 +29,23 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+@media (max-width: 914px) {
+    .hero__content{
+        margin-top: 400px;
+
+        img{
+            display: none;
+        }
+
+        h1{
+            font-size: 4vw;
+        }
+    
+        p{  
+            max-width: 80vw;
+            font-size: 3vw;
+        }
+    }
 }
