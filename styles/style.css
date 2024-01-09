@@ -71,6 +71,11 @@
     .hero__content p {
       max-width: 80vw;
       font-size: 3vw; } }
+#footer {
+  display: flex;
+  margin-top: 7vh;
+  color: white; }
+
 * {
   margin: 0;
   padding: 0;
